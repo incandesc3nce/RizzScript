@@ -1,77 +1,77 @@
-based x is "Hello, World!" ahh
-yap(x)
+const x = "Hello, World!" ;
+println(x)
 
-bet y is 1 ahh
-yap(y)
+let y = 1 ;
+println(y)
 
-bet a is deadass ahh
-yap(a)
+let a = true ;
+println(a)
 
-bet b is cap ahh
-yap(b)
+let b = false ;
+println(b)
 
-sus (y fr 1) {
-    yap("y is 1")
-} goon sus (y fr 2) {
-    yap("y is 2")
-} goon {
-    yap("y is not 1 or 2")
+if (y == 1) {
+    println("y is 1")
+} else if (y == 2) {
+    println("y is 2")
+} else {
+    println("y is not 1 or 2")
 }
 
-bet obj = {
+let obj = {
   x: 1,
   y: 2
-} ahh
+} ;
 
-yap(obj)
-yap(obj.x)
+println(obj)
+println(obj.x)
 
-rizz isMeaningOfLife(number) {
-  bet meaningOfLife is number fr 42 ahh
-  yap(meaningOfLife)
+fn isMeaningOfLife(number) {
+  let meaningOfLife = number == 42 ;
+  println(meaningOfLife)
 }
 
 isMeaningOfLife(42)
 
-grind (bet i is 0 ahh i smol 10 ahh i up) {
-    yap(glue("i is ", i))
+for (let i = 0 ; i < 10 ; i ++) {
+    println(strcon("i is ", i))
 }
 
-yap(nerd.random(1, 100), nerd.pi)
+println(math.random(1, 100), math.pi)
 
-fuck_around {
-    yap("lol")
-} find_out {
-    yap("rip xd")
+try {
+    println("lol")
+} catch {
+    println("rip xd")
 }
 
-bet aura is 0 ahh
+let aura = 0 ;
 
-grind (bet i is 0 ahh i smol 10 ahh i up) {
-    bet random is nerd.random(1, 2) ahh
-    sus (random fr 1) {
-        aura is aura gain 1000
-        yap(glue("Gained aura. Your aura is: ", aura))
-    } goon {
-        aura is aura lose 1000
-        yap(glue("Lost aura. Your aura is: ", aura))
+for (let i = 0 ; i < 10 ; i ++) {
+    let random = math.random(1, 2) ;
+    if (random == 1) {
+        aura = aura + 1000
+        println(strcon("Gained aura. Your aura is: ", aura))
+    } else {
+        aura = aura - 1000
+        println(strcon("Lost aura. Your aura is: ", aura))
     }
 }
 
-based list is [1, 2, 3] ahh
+const list = [1, 2, 3] ;
 
-rizz printArray(arr) {
-    grind(bet i is 0 ahh i smol len(arr) ahh i up) {
-        yap(arr[i])
+fn printArray(arr) {
+    for(let i = 0 ; i < len(arr) ; i ++) {
+        println(arr[i])
     }
 }
 
 printArray(list)
 
-yap("wait :D")
+println("wait :D")
 
-rizz perform() {
-    yap("ok!")
+fn perform() {
+    println("ok!")
 }
 
-lag(perform, 1000)
+setTimeout(perform, 1000)
