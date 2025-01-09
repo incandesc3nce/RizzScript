@@ -1,0 +1,77 @@
+based x is "Hello, World!" ahh
+yap(x)
+
+bet y is 1 ahh
+yap(y)
+
+bet a is deadass ahh
+yap(a)
+
+bet b is cap ahh
+yap(b)
+
+sus (y fr 1) {
+    yap("y is 1")
+} goon sus (y fr 2) {
+    yap("y is 2")
+} goon {
+    yap("y is not 1 or 2")
+}
+
+bet obj = {
+  x: 1,
+  y: 2
+} ahh
+
+yap(obj)
+yap(obj.x)
+
+rizz isMeaningOfLife(number) {
+  bet meaningOfLife is number fr 42 ahh
+  yap(meaningOfLife)
+}
+
+isMeaningOfLife(42)
+
+grind (bet i is 0 ahh i smol 10 ahh i up) {
+    yap(glue("i is ", i))
+}
+
+yap(nerd.random(1, 100), nerd.pi)
+
+fuck_around {
+    yap("lol")
+} find_out {
+    yap("rip xd")
+}
+
+bet aura is 0 ahh
+
+grind (bet i is 0 ahh i smol 10 ahh i up) {
+    bet random is nerd.random(1, 2) ahh
+    sus (random fr 1) {
+        aura is aura gain 1000
+        yap(glue("Gained aura. Your aura is: ", aura))
+    } goon {
+        aura is aura lose 1000
+        yap(glue("Lost aura. Your aura is: ", aura))
+    }
+}
+
+based list is [1, 2, 3] ahh
+
+rizz printArray(arr) {
+    grind(bet i is 0 ahh i smol len(arr) ahh i up) {
+        yap(arr[i])
+    }
+}
+
+printArray(list)
+
+yap("wait :D")
+
+rizz perform() {
+    yap("ok!")
+}
+
+lag(perform, 1000)

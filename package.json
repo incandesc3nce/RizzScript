@@ -1,0 +1,15 @@
+{
+  "name": "rizzscript",
+  "version": "1.0",
+  "scripts": {
+    "rizz": "ts-node src/main.ts"
+  },
+  "author": "incandesc3nce <incandesc3ncee@gmail.com>",
+  "description": "yet another typescript esolang",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "prettier": "3.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
