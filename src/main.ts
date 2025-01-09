@@ -29,7 +29,6 @@ async function run(filename: string): Promise<void> {
 
   
   input = transcribe(input);
-  console.log(input);
   
   const program = parser.produceAST(input);
 
