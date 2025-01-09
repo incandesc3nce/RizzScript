@@ -453,10 +453,15 @@ export default class Parser {
     const properties = new Array<Property>();
 
     while (this.notEOF() && this.at().type !== TokenType.CloseBrace) {
-      const key = this.expect(
-        TokenType.Identifier,
-        '💀 Expected key in object literal.',
-      ).value;
+      if (
+        this.at().type != TokenType.Identifier &&
+        this.at().type != TokenType.String
+      ) {
+        throw new Error(
+          '💀 Identifier expected following "Object" expression.',
+        );
+      }
+      const key = this.eat().value;
 
       // Allows shorthand key: pair -> { key, }
       if (this.at().type === TokenType.Comma) {
