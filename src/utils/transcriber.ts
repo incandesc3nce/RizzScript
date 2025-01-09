@@ -53,10 +53,15 @@ export function transcribe(source: string) {
       .replace_str('yappachino', 'setInterval')
       .replace_str('stack', '+=')
       .replace_str('london', '-=')
-      .replace_str('betimes', '*=')
+      .replace_str('multiply', '*=')
       .replace_str('ratio', '/=')
       .replace_str('then', '->')
-      .replace_str('lock in', 'import')
+      .replace_str('lock_in', 'import')
       .replace_str('glue', 'strcon')
+      .replace_str('haircut', 'trim')
+      .replace_str('slash', 'splitstr')
+      .replace_str('digits', 'parseNumber')
+      .replace_str('gang', 'objects')
+      .replace_str('hit_up', 'fetch')
   );
 }
