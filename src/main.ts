@@ -20,14 +20,13 @@ if (file) {
  * Function used for reading a .rizz file and executing it.
  * @param filename The name of the file to read and execute.
  */
-async function run(filename: string): Promise<void> {
-  // Import fs module dynamically
+function run(filename: string): void {
   let input = readFileSync(filename, 'utf-8') + '\nfinishExit()';
 
   const parser = new Parser();
   const env = createGlobalEnvironment();
 
-  
+
   input = transcribe(input);
   
   const program = parser.produceAST(input);
